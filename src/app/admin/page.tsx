@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import AdminDashboard from "@/components/AdminDashboard";
 import AdminLogin from "@/components/AdminLogin";
 
@@ -10,8 +10,8 @@ export default function AdminPage() {
 
   useEffect(() => {
     // Check if user is already authenticated
-    const authStatus = sessionStorage.getItem('adminAuth');
-    if (authStatus === 'true') {
+    const authStatus = sessionStorage.getItem("adminAuth");
+    if (authStatus === "true") {
       setIsAuthenticated(true);
     }
     setIsLoading(false);
@@ -22,7 +22,7 @@ export default function AdminPage() {
   };
 
   const handleLogout = () => {
-    sessionStorage.removeItem('adminAuth');
+    sessionStorage.removeItem("adminAuth");
     setIsAuthenticated(false);
   };
 

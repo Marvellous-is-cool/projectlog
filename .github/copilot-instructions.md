@@ -15,14 +15,14 @@
       No specific extensions required for this Next.js project.
 
 - [x] Compile the Project
-	Project compiled successfully. All dependencies installed, build successful, and MongoDB Atlas connected.
+      Project compiled successfully. All dependencies installed, build successful, and MongoDB Atlas connected.
 
 - [x] Create and Run Task
-	Development server is running successfully on http://localhost:3001 with all features working.- [ ] Launch the Project
+    Development server is running successfully on http://localhost:3001 with all features working.- [ ] Launch the Project
 <!--
 Verify that all previous steps have been completed.
 Prompt user for debug mode, launch only if confirmed.
  -->
 
 - [x] Ensure Documentation is Complete
-	All documentation complete. Application successfully built with enhanced admin dashboard including discipline-specific exports and delete functionality.
+      All documentation complete. Application successfully built with enhanced admin dashboard including discipline-specific exports and delete functionality.
